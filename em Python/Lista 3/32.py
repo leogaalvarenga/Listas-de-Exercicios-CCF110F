@@ -1,0 +1,7 @@
+h = int(input())
+c = int(input())
+f = int(input())
+r = int(input())
+m = int(input())
+gasto = (h*3) + (c*2.5) + (f*2.5) + r + (m*3)
+print("Total: R$ %.2f" % gasto)
