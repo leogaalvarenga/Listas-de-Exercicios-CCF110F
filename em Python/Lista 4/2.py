@@ -1,0 +1,5 @@
+a1 = int(input("Insira o primeiro termo:\n"))
+q = int(input("Insira a razao da PG:\n"))
+n = int(input("Insira o termo que vc deseja: \n"))
+a = a1 * (pow(q, (n -1)))
+print("O termo na posição %s é: %s."%(n, a))
